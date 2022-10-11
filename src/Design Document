@@ -1,0 +1,28 @@
+LinearEquation class
+Instance Variables:
+private int x1 - This variable represents the first x-coordinate
+private int y1 - this variable represents the first y-coordinate
+private int x2 - this variable represents the second x-coordinate
+private int y2 - this variable represents the second y-coordinate
+
+Constructor
+public LinearEquation(int x1, int y1, int x2, int y2)
+The constructor will use the parameters it is given to calculate all necessary information about the instance and set the information to variables
+
+Methods
+
+public String toString()
+This method will display all relevant information about this instance including:
+- X and Y coordinate information
+- Slope Intercept Form equation
+- Slope of the line
+- Y-intercept
+- Distance between points
+
+EquationRunner.java
+Step 1: Ask user to enter first coordinate point
+Step 2: Ask user to enter second coordinate point
+Step 3: Use the LinearEquation constructor
+Step 4: Use the toString() method
+Step 5: Ask the user for an x-value
+Step 6: Print out the solved coordinate value of the x-value by adding the y-value based on the slope
