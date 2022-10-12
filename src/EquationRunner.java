@@ -24,5 +24,7 @@ public class EquationRunner {
         int y2 = Integer.parseInt(yTwo);
         LinearEquation linearEquation = new LinearEquation(x1, y1, x2, y2);
         System.out.println(linearEquation.toString());
+        System.out.println("Enter an x-value: ");
+        double thirdX = s.nextDouble();
     }
 }

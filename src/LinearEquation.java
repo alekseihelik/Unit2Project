@@ -19,6 +19,9 @@ public class LinearEquation {
         slopeIntercept = (y2-y1) + "/" + (x2-x1) + "x" + " + " + yIntercept;
         distance = "" + Math.round((Math.sqrt(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1))))*100.0)/100.0;
     }
+    public String coordinateSolver(){
+
+    }
     public String toString(){
         String toString = "First pair: " + firstPairLocation + " \n";
         toString = toString + "Second pair: " + secondPairLocation + " \n";
