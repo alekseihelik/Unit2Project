@@ -1,15 +1,24 @@
 LinearEquation class
 Instance Variables:
-private int x1 - This variable represents the first x-coordinate
-private int y1 - this variable represents the first y-coordinate
-private int x2 - this variable represents the second x-coordinate
-private int y2 - this variable represents the second y-coordinate
+private int xOne - This variable represents the first x-coordinate
+private int yOne - this variable represents the first y-coordinate
+private int xTwo - this variable represents the second x-coordinate
+private int yTwo - this variable represents the second y-coordinate
+private String firstPairLocation - represents the first inputted pair
+private String secondPairLocation - represents the second inputted pair
+private String slopeIs - set to the slope of the two pairs
+private String yInterceptIs - set to the y-intercept
+private String slopeIntercept - set to the slope intercept form
+private String distance - set to the distance between points
 
 Constructor
 public LinearEquation(int x1, int y1, int x2, int y2)
 The constructor will use the parameters it is given to calculate all necessary information about the instance and set the information to variables
 
 Methods
+
+public String coordinateSolver(double thirdX)
+This method will be used to solve the coordinate point using the third x value that will be inputted
 
 public String toString()
 This method will display all relevant information about this instance including:
@@ -26,4 +35,4 @@ Step 3: Parse out the given coordinate points
 Step 4: Use the LinearEquation constructor
 Step 5: Use the toString() method
 Step 6: Ask the user for an x-value
-Step 7: Print out the solved coordinate value of the x-value by adding the y-value based on the slope
+Step 7: Print out the solved coordinate value of the x-value by adding the y-value based on the slope intercept form
